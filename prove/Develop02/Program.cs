@@ -25,11 +25,11 @@ namespace DailyJournal
                 {
                     case "1":
                         string[] prompts = {
-                            "Who was the most interesting person I interacted with today?",
-                            "What was the best part of my day?",
-                            "How did I see the hand of the Lord in my life today?",
-                            "What was the strongest emotion I felt today?",
-                            "If I had one thing I could do over today, what would it be?"
+                            "What made you smile today?",
+                            "What is something new you learned today?",
+                            "Write about a goal you accomplished today, no matter how small.",
+                            "What are you grateful for today?",
+                            "Reflect on your day and write down three things you want to remember."
                         };
 
                         string prompt = prompts[random.Next(prompts.Length)]; // Choose a random prompt
