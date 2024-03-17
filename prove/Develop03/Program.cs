@@ -2,8 +2,8 @@ class Program
 {
     static void Main(string[] args)
     {
-        Reference reference = new Reference("John", 3, 16, 16);
-        Scripture scripture = new Scripture(reference, "For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life.");
+        Reference reference = new Reference("1 Nephi", 3, 7, 7);
+        Scripture scripture = new Scripture(reference, "And it came to pass that I, Nephi, said unto my father: I will go and do the things which the Lord hath commanded, for I know that the Lord giveth no bcommandments unto the children of men, save he shall cprepare a way for them that they may accomplish the thing which he commandeth them.");
 
         // Display full scripture at the beginning
         Console.WriteLine("Full Scripture:");
