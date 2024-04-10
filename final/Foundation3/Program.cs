@@ -4,9 +4,9 @@ class Program
 {
     static void Main(string[] args)
     {
-        Address lectureAddress = new Address { Street = "123 Lecture St", City = "Cityville", State = "Stateville", ZipCode = "12345" };
-        Address receptionAddress = new Address { Street = "456 Reception St", City = "Townsville", State = "Stateville", ZipCode = "67890" };
-        Address outdoorAddress = new Address { Street = "789 Outdoor St", City = "Villageton", State = "Stateville", ZipCode = "54321" };
+        Address lectureAddress = new Address { Street = "123 Lecture St", City = "Provo", State = "Utah", ZipCode = "12345" };
+        Address receptionAddress = new Address { Street = "456 Reception St", City = "Orem", State = "Utah", ZipCode = "67890" };
+        Address outdoorAddress = new Address { Street = "789 Outdoor St", City = "Idaho Falls", State = "Idaho", ZipCode = "54321" };
 
         Lecture lectureEvent = new Lecture("Learn Programming", "Introduction to C#", new DateTime(2024, 4, 10), "10:00 AM", lectureAddress, "John Doe", 50);
         Reception receptionEvent = new Reception("Networking Mixer", "Meet and greet with professionals", new DateTime(2024, 4, 12), "6:00 PM", receptionAddress, "rsvp@example.com");
